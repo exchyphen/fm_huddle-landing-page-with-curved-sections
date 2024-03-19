@@ -1,0 +1,26 @@
+:root {
+  /* colors */
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+
+  /* font */
+  --font--headings: "Poppins", sans-serif;
+  --font--body: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+
+  /* base font */
+  font-family: var(--font--body);
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,14 @@
+/* general */
+
+.text--headings {
+  font-family: var(--font--headings);
+  font-weight: 700;
+}
+
+.text--bold {
+  font-weight: 600;
+}
+
+.text--extra-bold {
+  font-weight: 700;
+}
